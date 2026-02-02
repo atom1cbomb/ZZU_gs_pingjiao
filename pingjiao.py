@@ -9,7 +9,7 @@ from urllib3.util.retry import Retry
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- 配置区域 ---
-authToken = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI3Zjg4OThiMjRjYzI3NTkyYWMxNWQ4NTU4MTQyMTFhNCIsImV4cCI6MTc3MDExMTU2OSwiaWF0IjoxNzcwMDI1MTY5fQ.MGB2-cpEaExUDYEZVQI-WGT4IxGjOvRzEANsiNO_KrBaZdJEGV_spJEhYS0Ziob8fXp3Q3a_rUMglqBNzZtpdw'
+authToken = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI3Zjg4OThiMjRjYzI3NTkyYWMxNWQ4NTU4MTQyMTFhNCIsImV4cCI6MTU2OSwiaWF0IjoxNzcwMDI1MTY5fQ.MGB2-cpEaExUDYEZVQI-WGT4IxGjOvRzEANsiNO_KrBaZdJEGV_spJEhYS0Ziob8fXp3Q3a_rUMglqBNzZtpdw'
 kcListSelect = 'kkxn=2025-2026&kkxqm=1&pageNo=1&pageSize=1000&pageNum=1&'
 
 # 分数范围配置 
@@ -88,4 +88,5 @@ if __name__ == '__main__':
             print(f">>> 获取列表失败: {data}")
 
     except Exception as e:
+
         print(f"\n[错误] {e}")
